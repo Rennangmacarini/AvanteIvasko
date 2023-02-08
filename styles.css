@@ -15,13 +15,8 @@ body{
 
 iframe{
     width: 700px;
-    height: 1000px;
-    background: rgba(0, 0, 0, 0.35);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.18);
+    height: 1050px;
+    background: rgb(55, 55, 55);
 }
 
 img {
@@ -30,9 +25,26 @@ img {
     border-radius: 10px;
 }
 
+.hide {
+   position: relative;
+   z-index: 1;
+   margin-top: -11.5rem;
+}
+
+.border {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    background: rgb(55, 55, 55);
+
+}
+
 
 .Global-card {
-    display: flex;
+    position: relative;
+    z-index: 10;
+    margin-top: -6rem;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -42,7 +54,6 @@ img {
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin: 2rem 0rem;
 }
 
 .card-logo img {
@@ -61,6 +72,10 @@ img {
     }
 
     img{
+        width: 600px;
+    }
+
+    .border {
         width: 600px;
     }
 
@@ -83,6 +98,22 @@ img {
     img{
         width: 500px;
     }
+
+    .hide {
+        margin-top: -10rem;
+     }
+
+    .border {
+        width: 500px;
+    }
+
+    .card-logo img {
+        width: 80px;
+     }
+    
+     .card-logo .card-img{
+        width: 40px;
+    }
 }
 
 @media(max-width: 600px) {
@@ -95,26 +126,24 @@ img {
         width: 400px;
     }
 
-    .Global-card {
-        display: block;
+    .hide {
+        margin-top: -9.5rem;
+     }
+
+    .border {
+        width: 400px;
     }
 
-    .card-logo{
-        margin: 0.5rem 0rem;
-        gap: 1rem;
-    }
-
-}
-
-@media(max-width: 500px){
     .card-logo img {
-        width: 80px;
+        width: 60px;
      }
     
      .card-logo .card-img{
-        width: 45px;
+        width: 35px;
     }
+
 }
+
 
 @media(max-width: 450px) {
 
@@ -127,13 +156,10 @@ img {
         width: 380px;
     }
 
-    .card-logo img {
-        width: 70px;
-     }
-    
-     .card-logo .card-img{
-        width: 40px;
+    .border {
+        width: 380px;
     }
+
 }
 
 
