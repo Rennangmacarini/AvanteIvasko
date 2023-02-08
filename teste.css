@@ -84,3 +84,27 @@ a:hover{
         margin: 0.5rem;
     }
 }
+
+@media(max-width: 600px){
+
+    .full-global {
+        margin-top: 5rem;
+    }
+    .logo {
+        width: 370px;
+    }
+
+    .Global-card{
+        width: 370px;
+    }
+
+    .avante {
+        width: 60px;
+        margin: 0.2rem;
+    }
+    
+    .card-img {
+        width: 40px;
+        margin: 0.2rem;
+    }
+}
