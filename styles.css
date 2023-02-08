@@ -1,186 +1,110 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: 0;
 }
 
 body{
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .global {
+    text-align: center;
+}
+
+.logo {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 600px;
+    border-radius: 18px;
+}
+
+.Global-card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    
-}
+    background: rgb(26, 26, 26);
+    width: 600px;
 
-iframe{
-    width: 700px;
-    height: 1200px;
-    background: rgb(55, 55, 55);
-}
-
-.imgavante {
-    margin-bottom: 1rem;
-    width: 700px;
-    border-radius: 10px;
-}
-
-.hide {
-   position: relative;
-   z-index: 1;
-   margin-top: -330px;
-}
-
-.border {
-    width: 700px;
-    height: 100px;
     margin: 0 auto;
-    background: rgb(55, 55, 55);
+    gap: 1rem;
+    border-radius: 18px;
 
 }
 
-
-.Global-card {
-    position: relative;
-    z-index: 999;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
-    margin-top: -50px;
-}
-
-.card-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-  .avante {
+.avante {
     width: 100px;
- }
-
- .card-img{
-    width: 50px;
+    margin: 0.5rem;
 }
 
+.card-img {
+    width: 50px;
+    margin: 0.5rem;
+}
 
-@media(max-width: 1200px) {
+footer{
+    text-align: center;
+    margin: 3rem 0;
+}
 
-    iframe {
-        width: 600px;
+a {
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+    background: rgb(26, 26, 26);
+    border-radius: 8px;
+    font-size: 21px;
+}
+
+a:hover{
+    background: rgb(14, 14, 14);
+}
+
+@media(max-width: 700px){
+
+    .full-global {
+        margin-top: 5rem;
+    }
+    .logo {
+        width: 400px;
     }
 
-    .imgavante{
-        width: 600px;
-    }
-
-    .border {
-        width: 600px;
-    }
-
-    .Global-card {
-        display: block;
-    }
-
-    .card-logo{
-        margin: 1rem 0rem;
+    .Global-card{
+        width: 400px;
     }
 
     .avante {
-        width: 80px;
-     }
+        width: 60px;
+        margin: 0.5rem;
+    }
     
-     .card-img{
-        width: 50px;
-    }
-}
-
-
-@media(max-width: 750px) {
-
-    iframe {
-        width: 500px;
-    }
-
-    .imgavante{
-        width: 500px;
-    }
-
-    .hide {
-        margin-top: -300px;
-     }
-
-    .border {
-        width: 500px;
-    }
-
-    .card-logo img {
-        width: 70px;
-     }
-    
-     .card-logo .card-img{
+    .card-img {
         width: 40px;
+        margin: 0.5rem;
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 600px){
 
-    iframe {
-        width: 400px;
-        height: 950px;
+    .full-global {
+        margin-top: 5rem;
+    }
+    .logo {
+        width: 370px;
     }
 
-    .imgavante{
-        width: 400px;
+    .Global-card{
+        width: 370px;
     }
 
-    .hide {
-        margin-top: -90px;
-     }
-
-    .border {
-        width: 400px;
-        height: 220px;
+    .avante {
+        width: 60px;
+        margin: 0.2rem;
     }
-
-    .Global-card {
-        margin-top: -220px;
-    }
-
-    .card-logo img {
-        width: 55px;
-     }
     
-     .card-logo .card-img{
-        width: 35px;
+    .card-img {
+        width: 40px;
+        margin: 0.2rem;
     }
-
 }
-
-
-@media(max-width: 450px) {
-
-    iframe {
-        width: 380px;
-    }
-
-    .imgavante{
-        width: 380px;
-    }
-
-    .border {
-        width: 380px;
-    }
-
-    .hide {
-        margin-top: -110px;
-     }
-
-}
-
-
