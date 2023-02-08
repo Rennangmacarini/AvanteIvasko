@@ -60,3 +60,27 @@ a {
 a:hover{
     background: rgb(14, 14, 14);
 }
+
+@media(max-width: 700px){
+
+    .full-global {
+        margin-top: 5rem;
+    }
+    .logo {
+        width: 400px;
+    }
+
+    .Global-card{
+        width: 400px;
+    }
+
+    .avante {
+        width: 60px;
+        margin: 0.5rem;
+    }
+    
+    .card-img {
+        width: 40px;
+        margin: 0.5rem;
+    }
+}
