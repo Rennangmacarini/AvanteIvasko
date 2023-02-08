@@ -29,9 +29,9 @@ img {
 }
 
 .hide {
-   position: absolute;
+   position: relative;
    z-index: 1;
-   margin-top: -20rem;
+   margin-top: -300px;
 }
 
 .border {
@@ -44,13 +44,13 @@ img {
 
 
 .Global-card {
+    display: block;
     position: relative;
     z-index: 10;
-    margin-top: -12rem;
-    display: block;
+    margin-top: -50px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .card-logo {
@@ -85,6 +85,7 @@ img {
 
     .Global-card {
         display: block;
+        margin-top: -100px;
     }
 
     .card-logo{
@@ -104,7 +105,7 @@ img {
     }
 
     .hide {
-        margin-top: -10rem;
+        margin-top: -280px;
      }
 
     .border {
@@ -112,7 +113,7 @@ img {
     }
 
     .card-logo img {
-        width: 80px;
+        width: 70px;
      }
     
      .card-logo .card-img{
@@ -124,6 +125,7 @@ img {
 
     iframe {
         width: 400px;
+        height: 950px;
     }
 
     img{
@@ -131,15 +133,20 @@ img {
     }
 
     .hide {
-        margin-top: -9.5rem;
+        margin-top: -90px;
      }
 
     .border {
         width: 400px;
+        height: 220px;
+    }
+
+    .Global-card {
+        margin-top: -220px;
     }
 
     .card-logo img {
-        width: 60px;
+        width: 55px;
      }
     
      .card-logo .card-img{
@@ -153,7 +160,6 @@ img {
 
     iframe {
         width: 380px;
-        height: 1050px;
     }
 
     img{
@@ -163,6 +169,10 @@ img {
     .border {
         width: 380px;
     }
+
+    .hide {
+        margin-top: -105px;
+     }
 
 }
 
