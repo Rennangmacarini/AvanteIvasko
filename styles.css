@@ -9,13 +9,16 @@ body{
 }
 
 .global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 2rem;
-    text-align: center;
+    
 }
 
 iframe{
     width: 700px;
-    height: 1050px;
+    height: 1200px;
     background: rgb(55, 55, 55);
 }
 
@@ -26,9 +29,9 @@ img {
 }
 
 .hide {
-   position: relative;
+   position: absolute;
    z-index: 1;
-   margin-top: -11.5rem;
+   margin-top: -21rem;
 }
 
 .border {
@@ -43,10 +46,11 @@ img {
 .Global-card {
     position: relative;
     z-index: 10;
-    margin-top: -6rem;
+    margin-top: -14rem;
     display: block;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .card-logo {
