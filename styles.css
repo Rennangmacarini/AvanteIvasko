@@ -31,7 +31,7 @@ img {
 .hide {
    position: absolute;
    z-index: 1;
-   margin-top: -21rem;
+   margin-top: -20rem;
 }
 
 .border {
@@ -46,7 +46,7 @@ img {
 .Global-card {
     position: relative;
     z-index: 10;
-    margin-top: -14rem;
+    margin-top: -12rem;
     display: block;
     justify-content: center;
     align-items: center;
